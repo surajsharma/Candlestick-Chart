@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/chart/precache-manifest.cf179a7e6c3d6c8cae11bcab4afc7094.js"
+  "/Candlestick-Chart/precache-manifest.1e8f86e94be5e073265bd7b02a06a8e6.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/chart/index.html", {
+workbox.routing.registerNavigationRoute("/Candlestick-Chart/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
